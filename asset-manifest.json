@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Trufla-React-challenge/static/css/main.39dc1128.chunk.css",
-    "main.js": "/Trufla-React-challenge/static/js/main.35a67c75.chunk.js",
-    "main.js.map": "/Trufla-React-challenge/static/js/main.35a67c75.chunk.js.map",
+    "main.css": "/Trufla-React-challenge/static/css/main.ded1341e.chunk.css",
+    "main.js": "/Trufla-React-challenge/static/js/main.2e46bc0c.chunk.js",
+    "main.js.map": "/Trufla-React-challenge/static/js/main.2e46bc0c.chunk.js.map",
     "runtime-main.js": "/Trufla-React-challenge/static/js/runtime-main.2bbcad5a.js",
     "runtime-main.js.map": "/Trufla-React-challenge/static/js/runtime-main.2bbcad5a.js.map",
     "static/js/2.b0e24a17.chunk.js": "/Trufla-React-challenge/static/js/2.b0e24a17.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.60d25a8f.chunk.js": "/Trufla-React-challenge/static/js/3.60d25a8f.chunk.js",
     "static/js/3.60d25a8f.chunk.js.map": "/Trufla-React-challenge/static/js/3.60d25a8f.chunk.js.map",
     "index.html": "/Trufla-React-challenge/index.html",
-    "static/css/main.39dc1128.chunk.css.map": "/Trufla-React-challenge/static/css/main.39dc1128.chunk.css.map",
+    "static/css/main.ded1341e.chunk.css.map": "/Trufla-React-challenge/static/css/main.ded1341e.chunk.css.map",
     "static/js/2.b0e24a17.chunk.js.LICENSE.txt": "/Trufla-React-challenge/static/js/2.b0e24a17.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/Trufla-React-challenge/static/media/icon-arrow-down.852fa301.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2bbcad5a.js",
     "static/js/2.b0e24a17.chunk.js",
-    "static/css/main.39dc1128.chunk.css",
-    "static/js/main.35a67c75.chunk.js"
+    "static/css/main.ded1341e.chunk.css",
+    "static/js/main.2e46bc0c.chunk.js"
   ]
 }
