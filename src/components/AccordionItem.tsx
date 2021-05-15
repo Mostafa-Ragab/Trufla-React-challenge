@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import InterestsContext from "../contexts/interests/interests.context";
 import { UsersContext, usersTypes } from "../providers/users.providers";
+
 type Props = {
   showDescription: string;
   fontWeightBold: string;
@@ -8,6 +9,7 @@ type Props = {
   index: number;
   onClick: () => void;
 };
+
 const AccordionItem: React.FC<Props> = ({
   showDescription,
   fontWeightBold,
@@ -53,7 +55,7 @@ const AccordionItem: React.FC<Props> = ({
           {user.interests
             ? user.interests.map((int, idx) => (
                 <div key={idx}>
-                  {" "}
+                  {/* Show an expandable list of interests for each user */}
                   {interests
                     .filter((interest) => interest.id === int)
                     .map((interest) => (
