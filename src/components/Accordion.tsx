@@ -8,7 +8,10 @@ const Accordion: React.FC<UsersTypes> = ({ usersList }) => {
   const [activeIndex, setActiveIndex] = useState(1);
   const renderedUsers = usersList.users
     //sort users by follower count
-    .sort((a, b) => b.following.length - a.following.length)
+    .sort(
+      (b) =>
+        usersList.users.filter((usr) => usr.following.includes(b.id)).length
+    )
     .map((user, index) => {
       const showDescription = index === activeIndex ? "show-description" : "";
       const fontWeightBold = index === activeIndex ? "font-weight-bold" : "";
@@ -28,7 +31,7 @@ const Accordion: React.FC<UsersTypes> = ({ usersList }) => {
 
   return (
     <div className="users">
-      <h1 className="users__title">USERS</h1>
+      <h1 className="users__title">USERS LIST</h1>
       <dl className="users__list">{renderedUsers}</dl>
     </div>
   );

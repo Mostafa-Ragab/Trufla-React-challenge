@@ -1,6 +1,4 @@
 import React, { createContext, useState } from "react";
-
-// import { filterInterestFromUser } from "./users.utils";
 import Users from "../contexts/users.json";
 
 export type usersTypes = {
@@ -8,11 +6,6 @@ export type usersTypes = {
   name: string;
   following: number[];
   interests?: number[];
-};
-
-export type Interests = {
-  id: number;
-  name: string;
 };
 
 export interface DataTypes {

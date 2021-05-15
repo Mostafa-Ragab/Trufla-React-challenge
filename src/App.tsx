@@ -1,11 +1,24 @@
-import UserList from "./components/UserList";
+import React, { useContext } from "react";
+import Accordion from "./components/Accordion";
+import { UsersContext } from "./providers/users.providers";
 
-function App() {
+const App = () => {
+  const users = useContext(UsersContext);
+
   return (
-    <div>
-      <UserList />
+    <div className="container">
+      <div className="component">
+        <Accordion usersList={users} />
+      </div>
+      <div className="attribution">
+        Challenge by
+        <a href="https://www.trufla.com/" target="_blank" rel="noreferrer">
+          Trufla Technologies.
+        </a>
+        Coded by <a href="https://github.com/Mostafa-Ragab"> Mostafa raslan.</a>
+      </div>
     </div>
   );
-}
+};
 
 export default App;

@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import InterestsContext from "../contexts/interests/interests.context";
-import { UsersContext } from "../providers/users.providers";
-import { usersTypes } from "../providers/users.providers";
+import { UsersContext, usersTypes } from "../providers/users.providers";
 type Props = {
   showDescription: string;
   fontWeightBold: string;
